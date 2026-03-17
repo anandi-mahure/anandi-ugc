@@ -375,7 +375,7 @@ footer{background:var(--dark2);padding:30px 64px;display:flex;align-items:center
   <div class="hero-phones-row">
     <div class="pw" id="pw-h1">
       <div class="pf"><div class="ps" id="ps-h1"><div class="ps-empty"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg><span>Beauty reel</span></div></div><div class="play-ov"><svg width="36" height="36" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="rgba(0,0,0,.3)" stroke="white" stroke-width=".8"/><polygon points="10,8 18,12 10,16" fill="white"/></svg></div><div class="vbadge"><span>891 views</span></div><div class="bov"><span class="bov-brand">Simple Skincare ⭐</span><span class="bov-title">Facewash Unboxing</span></div></div>
-      <div class="p-label">Beauty</div>
+     <div class="ps has-media" id="ps-h1" style="overflow:hidden;position:relative;"><iframe src="https://www.youtube.com/embed/CWy6QfNqIXk?autoplay=1&mute=1&loop=1&playlist=CWy6QfNqIXk&rel=0&modestbranding=1&playsinline=1&controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="width:115%;height:115%;border:none;display:block;position:absolute;top:-7.5%;left:-7.5%;"></iframe></div>
       <div class="p-btns"><button class="p-btn" onclick="triggerFile('h1')">⬆ Upload</button><button class="p-btn p-btn-cam" onclick="triggerCam('h1')">📸</button></div>
     </div>
     <div class="pw" id="pw-h2">
@@ -605,7 +605,7 @@ const mt = document.getElementById('mtrack');
 
 // ── PORTFOLIO DATA ──
 const PDATA = [
-  {id:'p1', cat:'beauty',    brand:'Simple Skincare ⭐', title:'Facewash Unboxing',        views:'891'},
+  {id:'p1', cat:'beauty',    brand:'Simple Skincare ⭐', title:'Facewash Unboxing',        views:'891',ytId:'CWy6QfNqIXk'},
   {id:'p2', cat:'beauty',    brand:'Skincare Haul',      title:'The Ordinary · CeraVe · Sands', views:'963'},
   {id:'p3', cat:'beauty',    brand:'Beauty',             title:'Gloss or Me?',              views:'2,241'},
   {id:'p4', cat:'beauty',    brand:'Garnier',            title:'Micellar Water',            views:'848'},
